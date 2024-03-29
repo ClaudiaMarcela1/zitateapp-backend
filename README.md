@@ -30,7 +30,7 @@ Body (JSON)
 | password_usuario              | string                                         |
 | identificacion_usuario        | string                                         |
 | tipoIdentificacion_usuario    | enum ('CC', 'CE', 'TI')                        |
-| recuperar_password_usuario    | integer (0, 1) Cell                            |
+| recuperar_password_usuario    | integer (0, 1)                                 |
 | rol_usuario                   | enum ('Cliente', 'Empleado', 'Administrador')  |
 ```
 
@@ -57,7 +57,7 @@ Body (JSON)
 | password_usuario              | string                                         |
 | identificacion_usuario        | string                                         |
 | tipoIdentificacion_usuario    | enum ('CC', 'CE', 'TI')                        |
-| recuperar_password_usuario    | integer (0, 1) Cell                            |
+| recuperar_password_usuario    | integer (0, 1)                                 |
 | rol_usuario                   | enum ('Cliente', 'Empleado', 'Administrador')  |
 ```
 
